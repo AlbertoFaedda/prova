@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Esami2</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_570200_esami_2_esami2</name>
+        <number_ref display_value="ESA">ac4340c62f7d201008cdd2172799b678</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-20 08:32:43</sys_created_on>
+        <sys_id>184340c62f7d201008cdd2172799b62e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Esami2</sys_name>
+        <sys_package display_value="Esami 2" source="x_570200_esami_2">5c6288c22f7d201008cdd2172799b67c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Esami 2">5c6288c22f7d201008cdd2172799b67c</sys_scope>
+        <sys_update_name>sys_db_object_184340c62f7d201008cdd2172799b62e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-20 08:32:43</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

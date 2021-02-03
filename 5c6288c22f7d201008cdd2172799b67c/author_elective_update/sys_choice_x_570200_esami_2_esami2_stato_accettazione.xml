@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="stato_accettazione" table="x_570200_esami_2_esami2" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>stato_accettazione</element>
+            <name>x_570200_esami_2_esami2</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-20 08:32:45</sys_created_on>
+            <sys_id>c54340c62f7d201008cdd2172799b6e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>stato_accettazione</sys_name>
+            <sys_package display_value="Esami 2" source="x_570200_esami_2">5c6288c22f7d201008cdd2172799b67c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Esami 2">5c6288c22f7d201008cdd2172799b67c</sys_scope>
+            <sys_update_name>sys_choice_x_570200_esami_2_esami2_stato_accettazione</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 08:32:45</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stato_accettazione</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>accetato</label>
+            <language>en</language>
+            <name>x_570200_esami_2_esami2</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-20 08:32:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>494340c62f7d201008cdd2172799b6e6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 10:29:41</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stato_accettazione</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>rifiutato</label>
+            <language>en</language>
+            <name>x_570200_esami_2_esami2</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-01-20 08:32:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>494340c62f7d201008cdd2172799b6e2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-01-20 10:29:46</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

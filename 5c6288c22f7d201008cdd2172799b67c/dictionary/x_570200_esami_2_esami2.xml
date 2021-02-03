@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Esami2" max_length="40" name="x_570200_esami_2_esami2" sizeclass="4" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Data esame" max_length="40" name="data_esame" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Data verbalizzazione" max_length="40" name="data_verbalizzazione" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome corsista" max_length="40" name="nome_corsista" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome corso" max_length="40" name="nome_corso" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Stato" max_length="40" name="stato" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="in valutazione" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="iscritto" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="rimandato" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="sostenuto" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Stato accettazione" max_length="40" name="stato_accettazione" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="accetato" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="rifiutato" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Voto numerico" max_length="15" name="voto_numerico" type="decimal"/>
+    </element>
+</database>
